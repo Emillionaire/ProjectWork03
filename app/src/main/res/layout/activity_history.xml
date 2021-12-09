@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="History"
+    android:background="#79B2DF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История Новосибирска"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="\n\nНовосибирск (до 1926 года - Ново-Николаевск) - третий по численности населения город России. Был основан в 1893 году. Численность населения - 1 620 162 человек.
+\n\nГород является центром Новосибирской агломерации. Крупнейший торговый, деловой, культурный, транспортный, образовательный и научный центр Сибири.
+\n\nГород расположен на обоих берегах реки Обь рядом с Новосибирским водохранилищем, образованным на Оби, перегороженной плотиной Новосибирской ГЭС.
+\n\nНовосибирск является одним из передовых российских городов по развитию экономики. К преимуществам города относят его привлекательность как макрорегионального центра Сибири и постиндустриальный тип развития.
+\n\nВсего в Новосибирске 28 высших учебных заведений (13 университетов, 3 академии, 12 институтов), в том числе, имеются филиалы вузов других городов России (Москвы, Санкт-Петербурга, Томска). Всемирную известность Новосибирску принёс Академгородок, Новосибирский государственный университет, Физико-математическая школа НГУ, Высший колледж информатики НГУ. Недалеко от Новосибирска, в наукограде Кольцово находится Государственный научный центр вирусологии и биотехнологии «Вектор». В посёлке Краснообск расположено Сибирское отделение Российской академии сельскохозяйственных наук.
+"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_margin="10dp"
+        android:paddingTop="0dp">
+
+        <Button
+            android:id="@+id/btnMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="На главную"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="151dp"
+            android:layout_margin="1dp"
+            android:onClick="clickBtn"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
